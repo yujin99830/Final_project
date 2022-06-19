@@ -1,0 +1,10 @@
+.right { float: right; position: relative; top: -500px; right: 185px;}
+.aside2 {float: right; position: relative; top: -30px; right: 55px;}
+.logo a{text-decoration:none; color: rgb(223, 39, 125); text-shadow: 5px 5px 3px rgb(165, 152, 173);}
+.logo1 {background: #c2f0f1; margin: 20px 0; border-radius : 10px; text-decoration:none; line-height : 40px; font-weight:bold;}
+.logo1 a{text-decoration:none; }
+.wrap { margin:0; margin-right: auto; margin-left: auto; width:940px; min-height:600px;}
+.wrap a {text-decoration:none;}
+.ta1 { background: #ebeeee; position: relative; left : 40px; width: 93%; height: 450px; overflow-x : hidden; overflow-y : scroll;}
+body {background-image: url("01.png"); background-color: rgb(124, 122, 122); background-size: auto;}
+.if {background: #ebeeee;}

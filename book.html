@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+        <title>32207916 최유진 관심사</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <br/>
+    <br/>
+    <div class="wrap">
+        <table>
+            <tr>
+                <td colspan="3" height="25" align="right" class="" style = " padding :0 0px 0 0" width="885">
+                  <table cellpadding="0" cellspacing="0" border="0" width="885">
+                      <tbody>
+                          <tr>
+                              <td>
+                                  <table width="885" border="0" cellpadding="0" cellspacing="0" align="center">
+                                      <tbody>
+                                          <tr>
+                                              <td colspan="3" height="25" align="right" style="padding: 0 8px 0 0">
+                                              <a href="login.html">로그인</a> |
+                                              <a href="member.html">회원가입</a>
+                                              </td>
+                                          </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </td>
+            </tr>
+        </table>
+
+        <table>
+                  <tr class="logo">
+                      <td width="216" height="50" align="left">
+                          <a href="index.html"><h1>U행사</h1></a>
+                      </td>
+                      <td width="475" float="center">
+                        <input type="text" >
+                        <input type="submit" value="검색" onClick="alert('준비중입니다.')"/>
+                      </td>
+                  </tr>
+        </table>
+
+                  <nav class="logo1">
+                  <tr>
+                        <div style="position: relative">
+                        <table cellpadding="0" cellspacing="0" border="0" width="885">
+                            <tbody>
+                                <tr>
+                                    <td width="23"></td>
+                                        <td width="54">
+                                            <a href="foreign.html">해외여행</a>
+                                        </td>
+                                    <td width="23"></td>
+                                        <td width="54">
+                                            <a href="domestic.html">국내여행</a>
+                                        </td>
+                                    <td width="23"></td>
+                                        <td width="54">
+                                            <a href="trip.html">항공사</a>
+                                        </td> 
+                                    <td width="23"></td>
+                                        <td width="54">
+                                            <a href="hotel.html">호텔</a>
+                                        </td>
+                                        <td width="23"></td>
+                                        <td width="54">
+                                            <a href="book.html">예매</a>
+                                        </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                  </tr>
+                  </nav>
+
+<hr/>
+
+      <h1> 여행 예매</h1>
+      <form method="post" action="form_app.js">
+       <fieldset>
+       <legend>날짜 선택 및 시간 선택</legend>
+       날짜 선택 : <input type="date" name="date" min="2022-01-01" max="2099-12-31"/> <br>
+       시간 선택 : <input type="time" name="time1">부터 
+       <input type="time" name="time2" >까지<br>
+       장소 : <input type="text" name="p_name"/> <br>
+       자리 선택 : <select name="sit"  size="1">
+             <option selected>A</option> <option>B</option> <option>C</option>
+             <option>D</option> <option>E</option>
+             </select>
+       <input type="number" min="1" max="1000" step="1" value="1"/> <br>
+       </fieldset>
+       <fieldset>
+       <legend>예매자 정보</legend>
+       예매자 이름 : <input type="text" name="p_name"/> <br>
+       생년월일	: <input type="date" name="born_date" min="1900-01-01" max="2018-11-07"/> <br>
+       연락처 : <input type="tel"  name="tel" placeholder="000-0000-0000" pattern="[0-9][{3}-[0-9]{4}-[0-9]{4}" /> <br>
+       이메일 : <input type="email" name="p_mail" placeholder="****@****.***"/> <br>
+       </fieldset>
+       <fieldset>
+       <legend>티켓</legend>
+       티켓 매수 : <input type="number" min="1" max="3" step="1" value="1"/>
+       티켓 수령 방법 선택 : 
+       <label for="place">현장수령</label>
+       <input type ="radio" name="ticket" value="현장수령">
+       <label for="delivery">모바일수령</label>
+       <input type="radio" name="ticket" value="모바일수령">
+       </fieldset>
+       <hr>
+       <input type="button" value="예매" onclick="alert('예매완료')"/>
+      </form>
+
+      <hr/>
+
+      <footer>
+          <h4 class="aside1">여행사에 대해 더 알고 싶다면... </h4>
+          <div class="aside2" >
+              <a href="https://section.blog.naver.com/" target="_blank"><img src="blog.png" width="32" height="32" alt="네이버 블로그"/></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="Face.png" width="32" height="32" alt="페이스북"/></a>
+              <a href="https://www.instagram.com/" target="_blank"><img src="inst.png" width="32" height="32" alt="인스타"/></a>
+              <a href="https://twitter.com/" target="_blank"><img src="tiw.png" width="32" height="32" alt="트위터"/></a>
+          </div>
+      </footer>
+    </div>  
+    </body>
+  </html>
